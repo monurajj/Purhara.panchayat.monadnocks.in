@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Villages</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+<body class="site-body bg-gray-50 min-h-screen flex flex-col" data-page-title="Villages">
+  <header id="site-header"></header>
+
+  <main class="page-main flex-1 max-w-7xl mx-auto w-full px-4 sm:px-6 py-4 sm:py-6">
+    <h2 class="page-title font-bold text-gray-900 mb-6" data-i18n="villages.title">Village-wise Breakdown</h2>
+    <div id="village-cards" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+  </main>
+
+  <footer id="site-footer"></footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/modal.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    async function initVillages() {
+      await initApp('villages');
+      const projects = getProjects();
+      const grouped = groupBy(projects, 'village');
+      const container = document.getElementById('village-cards');
+
+      container.innerHTML = Object.entries(grouped).map(([village, items]) => {
+        const totalFunds = sumBy(items, 'total_cost');
+        const vLabel = field(items[0], 'village');
+        return `
+          <div class="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition">
+            <div class="flex items-center gap-3 mb-4">
+              <div class="bg-green-100 p-3 rounded-full"><i class="fas fa-home text-green-700"></i></div>
+              <h3 class="text-lg font-bold text-gray-900">${vLabel}</h3>
+            </div>
+            <div class="grid grid-cols-2 gap-4 mb-4">
+              <div>
+                <p class="text-xs text-gray-500" data-i18n="villages.projects">Projects</p>
+                <p class="text-2xl font-bold text-green-700">${items.length}</p>
+              </div>
+              <div>
+                <p class="text-xs text-gray-500" data-i18n="villages.funds">Total Funds</p>
+                <p class="text-lg font-bold text-gray-900">${formatCurrency(totalFunds)}</p>
+              </div>
+            </div>
+            <a href="${buildTableUrl({ village })}" class="inline-flex items-center text-green-700 hover:text-green-900 font-medium text-sm">
+              <i class="fas fa-arrow-right mr-1"></i> <span data-i18n="villages.viewWorks">View Works</span>
+            </a>
+          </div>
+        `;
+      }).join('');
+
+      applyTranslations();
+      renderFooter();
+    }
+    initVillages();
+  </script>
+</body>
+</html>

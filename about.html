@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>About — Gram Panchayat Purhara</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+<body class="site-body bg-gray-50 min-h-screen flex flex-col" data-page-title="About" data-page-title-key="nav.about">
+  <header id="site-header"></header>
+
+  <main class="page-main flex-1 max-w-4xl mx-auto w-full px-4 sm:px-6 py-4 sm:py-8">
+
+    <h2 id="about-title" class="page-title text-3xl font-bold text-gray-900 mb-3" data-i18n="about.title">About This Portal</h2>
+    <p id="about-intro" class="text-gray-600 mb-8 leading-relaxed" data-i18n="about.intro">
+      This portal presents development works and financial information of Gram Panchayat Purhara, Haspura Block, Aurangabad, Bihar — for transparency and accountability.
+    </p>
+
+    <!-- Developed by Monadnocks -->
+    <section class="bg-gradient-to-br from-green-800 to-green-700 text-white rounded-xl shadow-lg p-6 mb-6">
+      <p id="about-developed-by" class="text-xs uppercase tracking-widest text-green-200 font-semibold mb-1" data-i18n="about.developedBy">Developed By</p>
+      <p class="text-2xl font-extrabold mb-2">Monadnocks</p>
+      <p id="about-developed-text" class="text-green-100 text-sm leading-relaxed" data-i18n="about.developedText">
+        This website is designed and developed by Monadnocks to present official Gram Panchayat Purhara records in a clear, citizen-friendly format.
+      </p>
+    </section>
+
+    <!-- 5-Year Financial Summary -->
+    <section class="content-panel bg-white rounded-xl shadow-md p-6 mb-6">
+      <h3 class="text-xl font-bold text-green-800 mb-2 flex items-center gap-2">
+        <i class="fas fa-chart-line" aria-hidden="true"></i>
+        <span id="about-five-year" data-i18n="about.fiveYear">Last 5 Years — Financial Summary</span>
+      </h3>
+      <p id="about-five-year-note" class="text-sm text-gray-500 mb-4" data-i18n="about.fiveYearNote">
+        Figures are from official panchayat records. Use the Financial Year selector in the header for detailed projects.
+      </p>
+      <div class="table-scroll-wrap">
+        <p class="table-scroll-hint" data-i18n="table.scrollHint">Swipe sideways to see all columns →</p>
+        <table class="data-table w-full text-sm border-collapse" style="min-width:32rem">
+          <thead>
+            <tr class="bg-green-800 text-white">
+              <th id="col-year" class="px-4 py-3 text-left" data-i18n="about.colYear">Financial Year</th>
+              <th id="col-receipt" class="px-4 py-3 text-right" data-i18n="about.colReceipt">Total Receipt (₹)</th>
+              <th id="col-expenditure" class="px-4 py-3 text-right" data-i18n="about.colExpenditure">Total Expenditure (₹)</th>
+              <th id="col-projects" class="px-4 py-3 text-center" data-i18n="about.colProjects">Projects</th>
+              <th id="col-status" class="px-4 py-3 text-center" data-i18n="about.colStatus">Status</th>
+            </tr>
+          </thead>
+          <tbody id="five-year-tbody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Verify on eGramSwaraj -->
+    <section class="content-panel bg-white rounded-xl shadow-md p-6 mb-6">
+      <h3 class="text-xl font-bold text-green-800 mb-3 flex items-center gap-2">
+        <i class="fas fa-shield-alt" aria-hidden="true"></i>
+        <span id="about-help" data-i18n="about.help">Help &amp; Data Verification</span>
+      </h3>
+      <p id="about-help-intro" class="text-gray-700 mb-4 leading-relaxed text-sm" data-i18n="about.helpIntro">
+        All gram panchayat financial and work data is maintained on the Government of India's official portal. Anyone can verify receipts, expenditure, and works online before relying on any figure.
+      </p>
+      <div class="p-4 bg-blue-50 rounded-lg border border-blue-100 mb-4">
+        <p class="font-bold text-gray-900 mb-1" id="about-help-esvaraj" data-i18n="about.helpEsvaraj">eGramSwaraj Portal (Government of India)</p>
+        <p class="text-sm text-gray-600 mb-3" id="about-help-esvaraj-desc" data-i18n="about.helpEsvarajDesc">
+          Cross-check all Gram Panchayat Purhara data on the official eGramSwaraj / Panchayat Enterprise Suite portal.
+        </p>
+        <a href="https://egramswaraj.gov.in/" target="_blank" rel="noopener noreferrer"
+          class="btn-touch inline-flex items-center gap-2 bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-blue-800 transition w-full sm:w-auto">
+          <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+          <span id="about-help-esvaraj-link" data-i18n="about.helpEsvarajLink">Visit eGramSwaraj Portal</span>
+        </a>
+      </div>
+      <p class="text-sm text-gray-600" id="about-help-block-desc" data-i18n="about.helpBlockDesc">
+        For certified copies or RTI requests, contact Block Development Office (BDO), Haspura, Aurangabad, Bihar.
+      </p>
+    </section>
+
+    <!-- Contact -->
+    <section class="content-panel bg-white rounded-xl shadow-md p-6 mb-6">
+      <h3 class="text-xl font-bold text-green-800 mb-4 flex items-center gap-2">
+        <i class="fas fa-envelope" aria-hidden="true"></i>
+        <span id="about-contact" data-i18n="about.contact">Contact</span>
+      </h3>
+      <ul class="space-y-3 text-gray-700 text-sm">
+        <li class="flex gap-3">
+          <i class="fas fa-envelope text-green-700 mt-0.5 w-5 shrink-0" aria-hidden="true"></i>
+          <span>
+            <span id="about-inquiry-label" data-i18n="about.inquiryLabel">For inquiries, email us at</span>
+            <a id="about-email" href="mailto:contactmonadnocks@gmail.com" class="text-green-700 font-medium hover:underline ml-1 break-all">contactmonadnocks@gmail.com</a>
+          </span>
+        </li>
+        <li class="flex gap-3">
+          <i class="fas fa-hashtag text-green-700 mt-0.5 w-5 shrink-0" aria-hidden="true"></i>
+          <span><span id="about-localbody-label" data-i18n="about.localbodyCode">Local Body Code (LGD)</span>: <strong id="lgd-code">93949</strong></span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Terms & Disclaimer -->
+    <section class="content-panel bg-white rounded-xl shadow-md border border-gray-200 p-6 mb-6">
+      <h3 class="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
+        <i class="fas fa-gavel text-gray-600" aria-hidden="true"></i>
+        <span id="about-terms" data-i18n="about.terms">Terms &amp; Conditions</span>
+      </h3>
+      <ol class="space-y-3 text-sm text-gray-700 leading-relaxed list-decimal pl-5">
+        <li id="about-terms-1" data-i18n="about.terms1">This portal is for information only and does not constitute legal or official government advice.</li>
+        <li id="about-terms-2" data-i18n="about.terms2">All data is sourced from official gram panchayat records and the eGramSwaraj portal. We do not fabricate or alter official figures.</li>
+        <li id="about-terms-3" data-i18n="about.terms3">Users must verify all information on https://egramswaraj.gov.in or through the Block Development Office before any legal or financial use.</li>
+        <li id="about-terms-4" data-i18n="about.terms4">Monadnocks and Gram Panchayat Purhara are not liable for errors in source government data or misinterpretation of information shown here.</li>
+        <li id="about-terms-5" data-i18n="about.terms5">Data is provided "as is" without warranty. Misuse of this portal to defame any person or institution is prohibited.</li>
+        <li id="about-terms-6" data-i18n="about.terms6">Gram Panchayat Purhara may correct or update information to match official records at any time.</li>
+      </ol>
+    </section>
+
+    <section class="bg-yellow-50 border border-yellow-300 rounded-xl p-6">
+      <h3 class="text-lg font-bold text-yellow-900 mb-2 flex items-center gap-2">
+        <i class="fas fa-info-circle" aria-hidden="true"></i>
+        <span id="about-disclaimer" data-i18n="about.disclaimer">Disclaimer</span>
+      </h3>
+      <p id="about-disclaimer-text" class="text-gray-800 leading-relaxed text-sm" data-i18n="about.disclaimerText">
+        This portal is published in good faith for public transparency. Only the eGramSwaraj portal and certified government documents are authoritative proof. For official verification, always refer to eGramSwaraj or contact the Haspura Block Development Office.
+      </p>
+    </section>
+
+  </main>
+
+  <footer id="site-footer"></footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/modal.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    function renderFiveYearTable() {
+      const tbody = document.getElementById('five-year-tbody');
+      if (!tbody || !yearCatalog) return;
+
+      const lang = getLang();
+      const fiveYears = ['2021-2022', '2022-2023', '2023-2024', '2024-2025', '2025-2026'];
+      const summaries = yearCatalog.summaries || {};
+
+      tbody.innerHTML = fiveYears.map((yearId, i) => {
+        const yearEntry = yearCatalog.years.find(y => y.id === yearId);
+        const summary = summaries[yearId] || {};
+        const label = yearEntry ? (lang === 'hi' ? yearEntry.label_hi : yearEntry.label) : yearId;
+        const available = summary.available || yearEntry?.available;
+
+        const receipt = available && summary.receipt != null ? formatCurrency(summary.receipt) : '—';
+        const expenditure = available && summary.expenditure != null ? formatCurrency(summary.expenditure) : '—';
+        const projects = available && summary.projects != null ? formatNumber(summary.projects) : '—';
+        const statusLabel = available ? t('about.statusAvailable') : t('about.statusPending');
+        const statusClass = available ? 'bg-green-100 text-green-800' : 'bg-gray-100 text-gray-500';
+
+        return `<tr class="${i % 2 === 0 ? 'bg-white' : 'bg-gray-50'} border-b border-gray-100">
+          <td class="px-4 py-3 font-medium">${label}</td>
+          <td class="px-4 py-3 text-right font-mono text-xs">${receipt}</td>
+          <td class="px-4 py-3 text-right font-mono text-xs">${expenditure}</td>
+          <td class="px-4 py-3 text-center">${projects}</td>
+          <td class="px-4 py-3 text-center">
+            <span class="px-2 py-0.5 rounded-full text-xs font-medium ${statusClass}">${statusLabel}</span>
+          </td>
+        </tr>`;
+      }).join('');
+    }
+
+    async function initAbout() {
+      await initApp('about');
+      applyAboutPage();
+      const meta = getMeta();
+      const lgd = document.getElementById('lgd-code');
+      if (lgd && meta.localbody_code) lgd.textContent = meta.localbody_code;
+      renderFiveYearTable();
+      renderFooter();
+    }
+    initAbout();
+  </script>
+</body>
+</html>

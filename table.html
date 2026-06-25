@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Projects Table</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.2/jspdf.plugin.autotable.min.js"></script>
+</head>
+<body class="site-body bg-gray-50 min-h-screen flex flex-col" data-page-title="Projects">
+  <header id="site-header"></header>
+
+  <main class="page-main flex-1 max-w-7xl mx-auto w-full px-4 sm:px-6 py-4 sm:py-6">
+    <div class="page-header">
+      <h2 class="page-title font-bold text-gray-900" data-i18n="table.title">All Development Projects</h2>
+      <div class="page-actions">
+        <button id="export-csv" class="btn-touch bg-green-700 text-white px-4 py-2 rounded-lg text-sm hover:bg-green-600 transition">
+          <i class="fas fa-file-csv mr-1"></i> <span data-i18n="table.exportCsv">Export CSV</span>
+        </button>
+        <button id="export-pdf" class="btn-touch bg-red-700 text-white px-4 py-2 rounded-lg text-sm hover:bg-red-600 transition">
+          <i class="fas fa-file-pdf mr-1"></i> <span data-i18n="table.exportPdf">Export PDF</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Filters -->
+    <div class="filter-panel bg-white rounded-xl shadow-md p-5 mb-6">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4 mb-4">
+        <div>
+          <label class="block text-xs font-medium text-gray-500 mb-1" data-i18n="table.village">Village</label>
+          <select id="filter-village" class="w-full border rounded-lg px-3 py-2.5 text-sm focus:ring-2 focus:ring-green-500 focus:border-green-500"></select>
+        </div>
+        <div>
+          <label class="block text-xs font-medium text-gray-500 mb-1" data-i18n="table.focusArea">Focus Area</label>
+          <select id="filter-focus" class="w-full border rounded-lg px-3 py-2.5 text-sm focus:ring-2 focus:ring-green-500"></select>
+        </div>
+        <div>
+          <label class="block text-xs font-medium text-gray-500 mb-1" data-i18n="table.scheme">Scheme</label>
+          <select id="filter-scheme" class="w-full border rounded-lg px-3 py-2.5 text-sm focus:ring-2 focus:ring-green-500"></select>
+        </div>
+        <div class="sm:col-span-2">
+          <label class="block text-xs font-medium text-gray-500 mb-1" data-i18n="table.search">Search</label>
+          <input id="filter-search" type="search" data-i18n-placeholder="table.search" placeholder="Search projects..." class="w-full border rounded-lg px-3 py-2.5 text-sm focus:ring-2 focus:ring-green-500">
+        </div>
+      </div>
+      <div>
+        <label class="block text-xs font-medium text-gray-500 mb-2" data-i18n="table.costRange">Cost Range</label>
+        <div class="range-slider w-full" id="cost-range-slider">
+          <div class="range-slider__track" aria-hidden="true"></div>
+          <div class="range-slider__fill" id="cost-range-fill" aria-hidden="true"></div>
+          <input id="cost-min" type="range" class="range-slider__input range-slider__input--min" value="0" aria-label="Minimum cost">
+          <input id="cost-max" type="range" class="range-slider__input range-slider__input--max" value="0" aria-label="Maximum cost">
+        </div>
+        <p id="cost-label" class="text-sm text-gray-600 mt-2 text-center font-medium break-words"></p>
+      </div>
+    </div>
+
+    <!-- Table -->
+    <div class="bg-white rounded-xl shadow-md overflow-hidden">
+      <p class="table-scroll-hint" data-i18n="table.scrollHint">Swipe sideways to see all columns →</p>
+      <div class="table-scroll-wrap">
+        <table class="data-table w-full text-left">
+          <thead class="bg-green-800 text-white text-sm">
+            <tr>
+              <th class="sortable px-3 py-3" data-sort="s_no"><span data-i18n="table.sNo">S.No</span> <i class="fas fa-sort sort-icon text-xs"></i></th>
+              <th class="sortable px-3 py-3" data-sort="activity_code"><span data-i18n="table.code">Code</span> <i class="fas fa-sort sort-icon text-xs"></i></th>
+              <th class="px-3 py-3" data-i18n="table.description">Description</th>
+              <th class="px-3 py-3" data-i18n="table.type">Type</th>
+              <th class="sortable px-3 py-3" data-sort="focus_area"><span data-i18n="table.focusArea">Focus Area</span> <i class="fas fa-sort sort-icon text-xs"></i></th>
+              <th class="px-3 py-3" data-i18n="table.scheme">Scheme</th>
+              <th class="px-3 py-3" data-i18n="modal.component">Component</th>
+              <th class="sortable px-3 py-3" data-sort="total_cost"><span data-i18n="table.cost">Cost</span> <i class="fas fa-sort sort-icon text-xs"></i></th>
+              <th class="px-3 py-3" data-i18n="table.actions">Actions</th>
+            </tr>
+          </thead>
+          <tbody id="projects-tbody"></tbody>
+        </table>
+      </div>
+      <div class="table-footer border-t bg-gray-50">
+        <p id="page-info" class="text-sm text-gray-600 text-center sm:text-left"></p>
+        <div class="table-footer__actions">
+          <button id="btn-prev" class="px-4 py-2 border rounded-lg text-sm hover:bg-white disabled:opacity-40 bg-white sm:bg-transparent" data-i18n="table.prev">Previous</button>
+          <button id="btn-next" class="px-4 py-2 border rounded-lg text-sm hover:bg-white disabled:opacity-40 bg-white sm:bg-transparent" data-i18n="table.next">Next</button>
+        </div>
+      </div>
+      <div id="table-grand-total" class="px-4 py-4 border-t bg-green-50"></div>
+    </div>
+  </main>
+
+  <footer id="site-footer"></footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/filters.js"></script>
+  <script src="js/modal.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/table.js"></script>
+  <script>initTablePage();</script>
+</body>
+</html>

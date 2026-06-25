@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Discrepancies</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+<body class="site-body bg-gray-50 min-h-screen flex flex-col" data-page-title="Discrepancies">
+  <header id="site-header"></header>
+
+  <main class="page-main flex-1 max-w-7xl mx-auto w-full px-4 sm:px-6 py-4 sm:py-6">
+    <div class="mb-6">
+      <h2 class="page-title font-bold text-gray-900" data-i18n="discrepancies.title">Discrepancy Highlights</h2>
+      <p class="text-gray-600 mt-1" data-i18n="discrepancies.subtitle">Automatically flagged issues requiring attention</p>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+      <section class="bg-white rounded-xl shadow-md p-6">
+        <h3 class="font-semibold text-lg mb-4 flex items-center gap-2 text-red-700">
+          <i class="fas fa-clone"></i> <span data-i18n="discrepancies.duplicates">Duplicate Works</span>
+          <span class="ml-auto bg-red-100 text-red-700 text-xs px-2 py-0.5 rounded-full" id="dup-count">0</span>
+        </h3>
+        <div id="dup-list" class="space-y-3 max-h-80 overflow-y-auto"></div>
+      </section>
+
+      <section class="bg-white rounded-xl shadow-md p-6">
+        <h3 class="font-semibold text-lg mb-4 flex items-center gap-2 text-red-700">
+          <i class="fas fa-money-bill-wave"></i> <span data-i18n="discrepancies.highCost">High-Cost Projects</span>
+          <span class="text-xs text-gray-500 ml-1">(<span data-i18n="discrepancies.threshold">Above ₹5,00,000</span>)</span>
+          <span class="ml-auto bg-red-100 text-red-700 text-xs px-2 py-0.5 rounded-full" id="high-count">0</span>
+        </h3>
+        <div id="high-list" class="space-y-3 max-h-80 overflow-y-auto"></div>
+      </section>
+
+      <section class="bg-white rounded-xl shadow-md p-6">
+        <h3 class="font-semibold text-lg mb-4 flex items-center gap-2 text-red-700">
+          <i class="fas fa-hourglass-half"></i> <span data-i18n="discrepancies.incomplete">Incomplete Works</span>
+          <span class="ml-auto bg-red-100 text-red-700 text-xs px-2 py-0.5 rounded-full" id="inc-count">0</span>
+        </h3>
+        <div id="inc-list" class="space-y-3 max-h-80 overflow-y-auto"></div>
+      </section>
+
+      <section class="bg-white rounded-xl shadow-md p-6">
+        <h3 class="font-semibold text-lg mb-4 flex items-center gap-2 text-red-700">
+          <i class="fas fa-not-equal"></i> <span data-i18n="discrepancies.costMismatch">Cost Mismatches</span>
+          <span class="ml-auto bg-red-100 text-red-700 text-xs px-2 py-0.5 rounded-full" id="mis-count">0</span>
+        </h3>
+        <div id="mis-list" class="space-y-3 max-h-80 overflow-y-auto"></div>
+      </section>
+    </div>
+  </main>
+
+  <footer id="site-footer"></footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/modal.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    function renderFlagItem(project, extra = '') {
+      return `
+        <div class="red-flag rounded-lg p-3 flex items-start gap-3">
+          <i class="fas fa-flag text-red-600 mt-1 shrink-0"></i>
+          <div class="flex-1 min-w-0">
+            <p class="text-sm font-medium truncate">${field(project, 'activity_description')}</p>
+            <p class="text-xs text-gray-500">${field(project, 'village')} · ${formatCurrency(project.total_cost)} ${extra}</p>
+          </div>
+          <button onclick="showProjectModal(appData.projects.find(x=>x.s_no===${project.s_no}))" class="text-green-700 shrink-0">
+            <i class="fas fa-eye"></i>
+          </button>
+        </div>
+      `;
+    }
+
+    function renderEmpty(id) {
+      document.getElementById(id).innerHTML = `<p class="text-gray-400 text-sm italic" data-i18n="discrepancies.noIssues">No issues in this category.</p>`;
+    }
+
+    async function initDiscrepancies() {
+      await initApp('discrepancies');
+      const disc = detectDiscrepancies(getProjects());
+
+      document.getElementById('dup-count').textContent = disc.duplicates.length;
+      document.getElementById('high-count').textContent = disc.highCost.length;
+      document.getElementById('inc-count').textContent = disc.incomplete.length;
+      document.getElementById('mis-count').textContent = disc.costMismatches.length;
+
+      const dupList = document.getElementById('dup-list');
+      if (disc.duplicates.length) {
+        dupList.innerHTML = disc.duplicates.map(d =>
+          renderFlagItem(d.project, `(dup of #${d.duplicateOf.s_no})`)
+        ).join('');
+      } else renderEmpty('dup-list');
+
+      const highList = document.getElementById('high-list');
+      if (disc.highCost.length) {
+        highList.innerHTML = disc.highCost.map(p => renderFlagItem(p)).join('');
+      } else renderEmpty('high-list');
+
+      const incList = document.getElementById('inc-list');
+      if (disc.incomplete.length) {
+        incList.innerHTML = disc.incomplete.map(p =>
+          renderFlagItem(p, '· No GRAM prefix in description')
+        ).join('');
+      } else renderEmpty('inc-list');
+
+      const misList = document.getElementById('mis-list');
+      if (disc.costMismatches.length) {
+        misList.innerHTML = disc.costMismatches.map(m =>
+          renderFlagItem(m.project, `· ${m.ratio}x avg (${formatCurrency(m.avgCost)})`)
+        ).join('');
+      } else renderEmpty('mis-list');
+
+      applyTranslations();
+      renderFooter();
+    }
+    initDiscrepancies();
+  </script>
+</body>
+</html>

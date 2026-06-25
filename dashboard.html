@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Dashboard</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body class="site-body bg-gray-50 min-h-screen flex flex-col" data-page-title="Dashboard">
+  <header id="site-header"></header>
+
+  <main class="page-main flex-1 max-w-7xl mx-auto w-full px-4 sm:px-6 py-4 sm:py-6">
+    <h2 class="page-title font-bold text-gray-900 mb-6" data-i18n="dashboard.title">Development Dashboard</h2>
+
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6">
+      <div class="content-panel bg-white rounded-xl shadow-md p-5">
+        <h3 class="font-semibold text-gray-800 mb-4" data-i18n="dashboard.focusPie">Focus Area Distribution</h3>
+        <div class="chart-container"><canvas id="chart-focus-pie"></canvas></div>
+      </div>
+      <div class="content-panel bg-white rounded-xl shadow-md p-5">
+        <h3 class="font-semibold text-gray-800 mb-4" data-i18n="dashboard.schemeBar">Scheme-wise Funds</h3>
+        <div class="chart-container"><canvas id="chart-scheme-bar"></canvas></div>
+      </div>
+      <div class="content-panel bg-white rounded-xl shadow-md p-5">
+        <h3 class="font-semibold text-gray-800 mb-4" data-i18n="dashboard.villageBar">Village-wise Projects</h3>
+        <div class="chart-container"><canvas id="chart-village-bar"></canvas></div>
+      </div>
+      <div class="content-panel bg-white rounded-xl shadow-md p-5">
+        <h3 class="font-semibold text-gray-800 mb-4" data-i18n="dashboard.costDoughnut">Cost by Focus Area</h3>
+        <div class="chart-container"><canvas id="chart-cost-doughnut"></canvas></div>
+      </div>
+      <div class="bg-white rounded-xl shadow-md p-5 lg:col-span-2">
+        <h3 class="font-semibold text-gray-800 mb-4" data-i18n="dashboard.completionLine">Projects by Activity Type</h3>
+        <div class="chart-container"><canvas id="chart-completion-line"></canvas></div>
+      </div>
+    </div>
+  </main>
+
+  <footer id="site-footer"></footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/charts.js"></script>
+  <script src="js/modal.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    async function initDashboard() {
+      await initApp('dashboard');
+      renderDashboardCharts(getProjects());
+      renderFooter();
+    }
+    initDashboard();
+  </script>
+</body>
+</html>

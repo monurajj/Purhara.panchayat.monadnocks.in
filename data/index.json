@@ -1,0 +1,63 @@
+{
+  "default": "2022-2023",
+  "summaries": {
+    "2022-2023": {
+      "receipt": 6004836.99,
+      "expenditure": 3674186,
+      "projects": 154,
+      "available": true
+    },
+    "2023-2024": {
+      "available": false
+    },
+    "2024-2025": {
+      "available": false
+    },
+    "2025-2026": {
+      "available": false
+    },
+    "2021-2022": {
+      "receipt": 8641001,
+      "expenditure": 8641001,
+      "projects": 49,
+      "available": true
+    }
+  },
+  "years": [
+    {
+      "id": "2021-2022",
+      "label": "FY 2021-22",
+      "label_hi": "वित्त वर्ष २०२१-२२",
+      "available": true,
+      "file": "data/2021-2022.json"
+    },
+    {
+      "id": "2022-2023",
+      "label": "FY 2022-23",
+      "label_hi": "वित्त वर्ष २०२२-२३",
+      "available": true,
+      "file": "data/2022-2023.json"
+    },
+    {
+      "id": "2023-2024",
+      "label": "FY 2023-24",
+      "label_hi": "वित्त वर्ष २०२३-२४",
+      "available": false,
+      "file": "data/2023-2024.json"
+    },
+    {
+      "id": "2024-2025",
+      "label": "FY 2024-25",
+      "label_hi": "वित्त वर्ष २०२४-२५",
+      "available": false,
+      "file": "data/2024-2025.json"
+    },
+    {
+      "id": "2025-2026",
+      "label": "FY 2025-26",
+      "label_hi": "वित्त वर्ष २०२५-२६",
+      "available": false,
+      "file": "data/2025-2026.json"
+    }
+  ]
+}

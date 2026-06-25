@@ -1,0 +1,1542 @@
+[
+  {
+    "s_no": 1,
+    "activity_code": 62108981,
+    "activity_description": "GRAM BIRHARA ME UGRAH PASWAN KE POKHRA URAHI KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 320000
+  },
+  {
+    "s_no": 2,
+    "activity_code": 61604389,
+    "activity_description": "GRAM RAGHUNATHPUR WARD 04 ME SARWAJANIK SAUCHALYA KA NIRMAN",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "XV Finance Commission",
+    "scheme_component_name": "Tied Grant",
+    "total_cost": 90000
+  },
+  {
+    "s_no": 3,
+    "activity_code": 61632269,
+    "activity_description": "GRAM PURHARA KE WARD 10 ME NAL JAL HETU RAKH RAKHAW AWAM MARMATI KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Drinking water",
+    "scheme_name": "XV Finance Commission",
+    "scheme_component_name": "Tied Grant",
+    "total_cost": 42000
+  },
+  {
+    "s_no": 4,
+    "activity_code": 62200270,
+    "activity_description": "GRAM BIRHARA ME LUTAN CHAUDHARI KE POKHRA URAHI KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 370000
+  },
+  {
+    "s_no": 5,
+    "activity_code": 61607311,
+    "activity_description": "GRAM PURHARA WARD 09 ME SARWAJANIK SAUCHALYA KE NIRMAN",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "XV Finance Commission",
+    "scheme_component_name": "Tied Grant",
+    "total_cost": 90000
+  },
+  {
+    "s_no": 6,
+    "activity_code": 61631805,
+    "activity_description": "GRAM KISHUPUR KE WARD 05 ME NAL JAL HETU RAKH RAKHAW AWAM MARMATI KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Drinking water",
+    "scheme_name": "XV Finance Commission",
+    "scheme_component_name": "Tied Grant",
+    "total_cost": 100000
+  },
+  {
+    "s_no": 7,
+    "activity_code": 61632320,
+    "activity_description": "GRAM PURHARA KE WARD 11 ME NAL JAL HETU RAKH RAKHAW AWAM MARMATI KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Drinking water",
+    "scheme_name": "XV Finance Commission",
+    "scheme_component_name": "Tied Grant",
+    "total_cost": 42000
+  },
+  {
+    "s_no": 8,
+    "activity_code": 61604221,
+    "activity_description": "GRAM BIRHARA WARD 08 ME SARWAJANIK SAUCHALYA NIRMAN",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "XV Finance Commission",
+    "scheme_component_name": "Tied Grant",
+    "total_cost": 90000
+  },
+  {
+    "s_no": 9,
+    "activity_code": 61613545,
+    "activity_description": "GRAM RAGHUNATHPUR KE WARD 04 ME AAGANWADI KENDRA ME SUBIDHAYO KA BIKASH",
+    "activity_type": "Community Works",
+    "focus_area": "Social welfare",
+    "scheme_name": "XV Finance Commission",
+    "scheme_component_name": "Basic Grant (untied)",
+    "total_cost": 241000
+  },
+  {
+    "s_no": 10,
+    "activity_code": 61609991,
+    "activity_description": "GRAM PURHARA KE WARD 09 ME MUKH MANTRI GRAMIN SOLAR STREET LIGHT 10 ASHTANO PAR NIRMAN KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Rural electrification",
+    "scheme_name": "XV Finance Commission",
+    "scheme_component_name": "Basic Grant (untied)",
+    "total_cost": 300000
+  },
+  {
+    "s_no": 11,
+    "activity_code": 61614250,
+    "activity_description": "GRAM PANCHAYAT PURHARA ME PRINTER AWAM SCANNER SAMAGRI KARYA HETU",
+    "activity_type": "Community Works",
+    "focus_area": "Social welfare",
+    "scheme_name": "XV Finance Commission",
+    "scheme_component_name": "Basic Grant (untied)",
+    "total_cost": 50110
+  },
+  {
+    "s_no": 12,
+    "activity_code": 61631238,
+    "activity_description": "GRAM RAGHUNATHPUR KE WARD 02 ME CHATH GHAT KE AWASHESH BHAG KA NIRMAN",
+    "activity_type": "Community Works",
+    "focus_area": "Drinking water",
+    "scheme_name": "XV Finance Commission",
+    "scheme_component_name": "Tied Grant",
+    "total_cost": 608935
+  },
+  {
+    "s_no": 13,
+    "activity_code": 62020632,
+    "activity_description": "GRAM RAGHUNATHPUR WARD 1 KE KABRISTAN ME TALAB URAHI KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Agriculture",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 450000
+  },
+  {
+    "s_no": 14,
+    "activity_code": 62023722,
+    "activity_description": "GRAM RAGHUNATHPUR WARD NO 1 KE SYAMNANDAN SINGH KE NIJI JAMIN ME BRIKSHA ROPAN KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Social welfare",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 267000
+  },
+  {
+    "s_no": 15,
+    "activity_code": 62023793,
+    "activity_description": "GRAM RAGHUNATHPUR ME UDAY YADAV KE KHET SE RAJNANDAN YADAV KE KHET TAK PIND KA NIRMAN",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 485000
+  },
+  {
+    "s_no": 16,
+    "activity_code": 62023982,
+    "activity_description": "GRAM RAGHUNATHPUR ME MANOJ YADAV KE NIJI JAMIN ME PASU SHED KA NIRMAN",
+    "activity_type": "Community Works",
+    "focus_area": "Social welfare",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 167000
+  },
+  {
+    "s_no": 17,
+    "activity_code": 62067921,
+    "activity_description": "GRAM PURHARA RAMASANKAR SINGH KE NIJI JAMIN ME TALAB NIRMAN KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Cultural activities",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 196000
+  },
+  {
+    "s_no": 18,
+    "activity_code": 62068176,
+    "activity_description": "GRAM PURHARA DEVENDRA SINGH KE NIJI JAMIN ME BRIKSHA ROPAN KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Minor forest produce",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 267000
+  },
+  {
+    "s_no": 19,
+    "activity_code": 62068468,
+    "activity_description": "GRAM BANDHU BIGHA WARD 6 AKHILESH KE GHAR SE BHOLA SINGH KE GHAR TAK MITI BHARAI AWAM FEBAR BLOCK",
+    "activity_type": "Community Works",
+    "focus_area": "Roads",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 496000
+  },
+  {
+    "s_no": 20,
+    "activity_code": 62068679,
+    "activity_description": "GRAM BANDHU BIGHA ME DEVI ASTHAN JANE WALA NAHAR PAR FEBAR BLOCK DEVI ASTHAN TAK",
+    "activity_type": "Community Works",
+    "focus_area": "Roads",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 483000
+  },
+  {
+    "s_no": 21,
+    "activity_code": 62069187,
+    "activity_description": "GRAM PURHARA BINOD KUMAR KE NIJI JAMIN ME BRIKSHA ROPAN KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Minor forest produce",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 267000
+  },
+  {
+    "s_no": 22,
+    "activity_code": 62069973,
+    "activity_description": "GRAM PURHARA ME JAINENDRA KUMAR KE NIJI JAMIN ME TALAB KA NIRMAN KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Cultural activities",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 196000
+  },
+  {
+    "s_no": 23,
+    "activity_code": 62070276,
+    "activity_description": "GRAM PURHARA ME SANJUKTA KUMARI KE NIJI JAMIN ME BRIKSHA ROPAN KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Minor forest produce",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 267000
+  },
+  {
+    "s_no": 24,
+    "activity_code": 62070972,
+    "activity_description": "GRAM PURHARA ME RAMVINAY SINGH KE NIJI JAMIN ME BRIKSHA ROPAN KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Cultural activities",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 267000
+  },
+  {
+    "s_no": 25,
+    "activity_code": 62071167,
+    "activity_description": "GRAM PURHARA ME SANDHYA KUMARI KE NIJI JAMIN ME BRIKSHA ROPAN KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Cultural activities",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 267000
+  },
+  {
+    "s_no": 26,
+    "activity_code": 62071312,
+    "activity_description": "GRAM PURHARA ME MINA DEVI KE NIJI JAMIN ME BRIKSHA ROPAN KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Cultural activities",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 267000
+  },
+  {
+    "s_no": 27,
+    "activity_code": 62071862,
+    "activity_description": "GRAM RAGHUNATHPUR WARD 1 NANHAKO SAW KE GHAR SE HAJARI RAJVANSHI GHAR TAK FEBAR BLOCK KANCHI SAHIT",
+    "activity_type": "Community Works",
+    "focus_area": "Roads",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 497000
+  },
+  {
+    "s_no": 28,
+    "activity_code": 62072169,
+    "activity_description": "GRAM RAGHUNATHPUR ME KMLES CHAUDHRI KE GHAR SE GURUDIYAL SAV KE GHAR TAK MITI BHARAI AWAM FEBAR BLOCK",
+    "activity_type": "Community Works",
+    "focus_area": "Roads",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 475000
+  },
+  {
+    "s_no": 29,
+    "activity_code": 62073912,
+    "activity_description": "GRAM RAGHUNATHPUR SAMSAN GHAT PAR SAMTALIKAKRN KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Land improvement",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 950000
+  },
+  {
+    "s_no": 30,
+    "activity_code": 62086906,
+    "activity_description": "GRAM KISHUNPUR ME UPENDRA SINGH MANGALAN JI KE NIJI JAMIN ME BRIKSHA ROPAN KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Minor forest produce",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 320000
+  },
+  {
+    "s_no": 31,
+    "activity_code": 62087381,
+    "activity_description": "GRAM PURHARA ME BALESHWAR SINGH KE NAD SE MAHABIR ASTHAN HOTE HUE CHAURI TAK MITI BHARAI KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Land improvement",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 995000
+  },
+  {
+    "s_no": 32,
+    "activity_code": 62088322,
+    "activity_description": "GRAM PURHARA ME MAIN NAHAR SE PANCHAYAT BHAWAN HOTE HUE CHAMAN BIGHA ROAD TAK MITI BHARAI KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Land improvement",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 997000
+  },
+  {
+    "s_no": 33,
+    "activity_code": 62088602,
+    "activity_description": "HIRDA YADAV GHAR SE FEBAR BLOCK AWAM NALI NIRMAN KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Roads",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 785000
+  },
+  {
+    "s_no": 34,
+    "activity_code": 62089277,
+    "activity_description": "PURHARA PANCHAYAT BHAWAN ME MITI BHARAI AWAM FEBAR BLOCK KARYA WARD 09",
+    "activity_type": "Community Works",
+    "focus_area": "Land improvement",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 997000
+  },
+  {
+    "s_no": 35,
+    "activity_code": 62089535,
+    "activity_description": "GRAM BIRHARA ME SYAM BABU KE GHAR HOTE HUE RAGHUNATHPUR KARHA TAK MITI BHARAI KARYA WARD 7",
+    "activity_type": "Community Works",
+    "focus_area": "Land improvement",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 677000
+  },
+  {
+    "s_no": 36,
+    "activity_code": 62089849,
+    "activity_description": "GRAM BIRHARA ME PRATHMIK VIDYALYA KE PRAGAN ME MITI BHARAI AWAM FEBAR BLOCK KARWA WARD 8",
+    "activity_type": "Community Works",
+    "focus_area": "Roads",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 450000
+  },
+  {
+    "s_no": 37,
+    "activity_code": 62096940,
+    "activity_description": "BIRHARA ME RAJA SINGH KE NIJI JAMIN ME POKHAR KA NAV NIRMAN KARYA WARD 7",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 250000
+  },
+  {
+    "s_no": 38,
+    "activity_code": 62097035,
+    "activity_description": "GRAM BIRHARA ME RAVI RANJAN KE NIJI JAMIN ME POKHRI KA NAV NIRMAN KARYA WARD 7",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 220000
+  },
+  {
+    "s_no": 39,
+    "activity_code": 62097618,
+    "activity_description": "GRAM PURHARA ME RAM EKBAL PASWAN KE KHET ME POKHRA KA NIRMAN KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 210000
+  },
+  {
+    "s_no": 40,
+    "activity_code": 62097818,
+    "activity_description": "PURHARA ME SANJAY SINGH KE KHET ME BRIKSHA ROPAN KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Minor forest produce",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 265000
+  },
+  {
+    "s_no": 41,
+    "activity_code": 62098758,
+    "activity_description": "GRAM PURHARA ME GANAURI YADAV KE KHET SE RAMBALI SINGH KE GHAR TAK KARHA NAV NIRMNA KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 320000
+  },
+  {
+    "s_no": 42,
+    "activity_code": 62099864,
+    "activity_description": "BIRHARA ME PAIEN SE LEKAR MAHENDRA SINGH KE KHET HOTE HUE ANTIM CHOR TAK MITI BHARAI KARYA WARD 8",
+    "activity_type": "Community Works",
+    "focus_area": "Land improvement",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 495000
+  },
+  {
+    "s_no": 43,
+    "activity_code": 62100126,
+    "activity_description": "BIRHARA ME MAIN ROAD SE BANGALI KE GHAR TAK MITI BHARAI KARYA WARD 8",
+    "activity_type": "Community Works",
+    "focus_area": "Land improvement",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 544000
+  },
+  {
+    "s_no": 44,
+    "activity_code": 62100381,
+    "activity_description": "GRAM PURHARA ME CHANDAN SINGH KE MIL SE AAHAR KE PIND HOTE RAGHUNATHPUR MAIN ROAD TAK MITI BHARAI",
+    "activity_type": "Community Works",
+    "focus_area": "Land improvement",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 630000
+  },
+  {
+    "s_no": 45,
+    "activity_code": 62101871,
+    "activity_description": "GRAM MAHAWAL BIGHA WARD NO 9 ME NIRAJ KE GHAR SE NAHAR TAK NALI NIRMAN KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 520000
+  },
+  {
+    "s_no": 46,
+    "activity_code": 62102040,
+    "activity_description": "GRAM MAHAWAL BIGHA ME UPENDRA SINGH KE NIJI JAMIN ME POKHRA KA NAV NIRMAN KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 320000
+  },
+  {
+    "s_no": 47,
+    "activity_code": 62102717,
+    "activity_description": "GRAM MAHAWAL BIGHA ME SANDIP KUMAR KE GHAR SE UMESH SINGH KE GHAR HOTE HUE KARHA TAK NALI NIRMAN KAR",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 740000
+  },
+  {
+    "s_no": 48,
+    "activity_code": 62108499,
+    "activity_description": "GRAM PURHARA ME BADKI KARHA SE DILBHADUR PASWAN KE KHET TAK KARHA KA NAV NIRMAN KARYA WARD 09",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 360000
+  },
+  {
+    "s_no": 49,
+    "activity_code": 62108787,
+    "activity_description": "PURHARA ME PURANA PANCHYAT BHAWN SE LALIT KISHOR GHAR HOTE HUE RAM JANKI MANDIR TAK FEBAR BLOCK W-9",
+    "activity_type": "Community Works",
+    "focus_area": "Roads",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 775000
+  },
+  {
+    "s_no": 50,
+    "activity_code": 62108928,
+    "activity_description": "GRAM PURHARA ME RAUSHAN SINGH KE NIJI JAMIN ME BRIKSHA ROPAN KARYA WARD 11",
+    "activity_type": "Community Works",
+    "focus_area": "Minor forest produce",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 240000
+  },
+  {
+    "s_no": 51,
+    "activity_code": 62109196,
+    "activity_description": "GRAM BIRHARA ME DEVMUNI KE GHAR SE SAMNATH KE GHAR HOTE HUE SASIBHUSN KE GHAR TAK FEBAR BLOCK KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Roads",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 895000
+  },
+  {
+    "s_no": 52,
+    "activity_code": 62109314,
+    "activity_description": "GRAM BIRHARA ME RAMNATH SAV AWAM HORIL SAV KE GHAR AWAM MOHAN SAV KE GHAR TAK FEBAR BLOCK KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Roads",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 597000
+  },
+  {
+    "s_no": 53,
+    "activity_code": 62109403,
+    "activity_description": "GRAM BIRHARA ME NAHAR SE DEVI DAYAL CHANDRAVANSHI KE GHAR TAK FEBAR BLOCK KA KARYA NIRMAN",
+    "activity_type": "Community Works",
+    "focus_area": "Roads",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 996000
+  },
+  {
+    "s_no": 54,
+    "activity_code": 62109677,
+    "activity_description": "GRAM CHAMAN BIGHA ME SANTOSH YADAV KE NIJI JAMIN ME BRIKSHA ROPAN KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Minor forest produce",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 340000
+  },
+  {
+    "s_no": 55,
+    "activity_code": 62109948,
+    "activity_description": "GRAM CHAMAN BIGHA ME CHANDRES YADAV KE NIJI JAMIN ME BRIKSHA ROPAN KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Minor forest produce",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 350000
+  },
+  {
+    "s_no": 56,
+    "activity_code": 62110402,
+    "activity_description": "GRAM BIRHARA ME NAHAR SE SAMSAN GHAT TAK RASTA KA NAV NIRMAN KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Roads",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 930000
+  },
+  {
+    "s_no": 57,
+    "activity_code": 62197185,
+    "activity_description": "GRAM PURHARA ME SAMSAN GHAT PAR MITI BHARAI AWAM SAMTILIKARAN KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Land improvement",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 610000
+  },
+  {
+    "s_no": 58,
+    "activity_code": 62197752,
+    "activity_description": "GRAM PURHARA ME SAMSAN GHAT PAR BRIKSHA ROPAN KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Minor forest produce",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 440000
+  },
+  {
+    "s_no": 59,
+    "activity_code": 62198552,
+    "activity_description": "GRAM BIRHARA ME GOWARDHAN JI KE PASS MITI BHARAI AWAM SAMTALIKARN KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Land improvement",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 550000
+  },
+  {
+    "s_no": 60,
+    "activity_code": 62201857,
+    "activity_description": "GRAM RAGHUNATHPUR ME MADANI KHAN KE GHAR SE FEBAR BLOCK KANCHI SAHIT WARD NO 01",
+    "activity_type": "Community Works",
+    "focus_area": "Roads",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 995000
+  },
+  {
+    "s_no": 61,
+    "activity_code": 62202329,
+    "activity_description": "GRAM KISHUNPUR ME ANIL JI KE MAKAN SE UTAR KI OR PAKKI NALI KA NIRMAN KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 680000
+  },
+  {
+    "s_no": 62,
+    "activity_code": 62110800,
+    "activity_description": "GRAM CHAMAN BIGHAMEROD PAR MITI BHARAI KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Land improvement",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 845000
+  },
+  {
+    "s_no": 63,
+    "activity_code": 62111006,
+    "activity_description": "GRAM BIRHARA ME RAJENDRA YADAV KE NIJI JAMIN ME PASHU SHED KA NIRMAN",
+    "activity_type": "Community Works",
+    "focus_area": "Social welfare",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 240000
+  },
+  {
+    "s_no": 64,
+    "activity_code": 62197585,
+    "activity_description": "GRAM BIRHARA ME SAMSAN GHAT PAR BIRKSHA ROPAN KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Minor forest produce",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 360000
+  },
+  {
+    "s_no": 65,
+    "activity_code": 62202054,
+    "activity_description": "GRAM RAGHUNATH PUR ME MUKH PATH SE PURHARA AAHAR TAK FEBAR BLOCK KARYA WARD 01",
+    "activity_type": "Community Works",
+    "focus_area": "Roads",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 986000
+  },
+  {
+    "s_no": 66,
+    "activity_code": 62086277,
+    "activity_description": "NATHUNI YADAV JI KE GHAR KE PASS SE DAKSHIN KI OR KARHA URHAI KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 420000
+  },
+  {
+    "s_no": 67,
+    "activity_code": 62086612,
+    "activity_description": "GRAM KISHUNPUR ME BIRENDRA SINGH KE POKHRA URAHI KARYA WARD NO 5",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 260000
+  },
+  {
+    "s_no": 68,
+    "activity_code": 61613146,
+    "activity_description": "GRAM RAGHUNATHPUR KE WARD 03 ,ME SAWADAGRIH KA NIRMAN",
+    "activity_type": "Community Works",
+    "focus_area": "Markets and fairs",
+    "scheme_name": "XV Finance Commission",
+    "scheme_component_name": "Basic Grant (untied)",
+    "total_cost": 360001
+  },
+  {
+    "s_no": 69,
+    "activity_code": 61632219,
+    "activity_description": "GRAM PURHARA KE WARD 09 ME NAL JAL HETU RAKH RAKHAW AWAM MARMATI KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Drinking water",
+    "scheme_name": "XV Finance Commission",
+    "scheme_component_name": "Tied Grant",
+    "total_cost": 42000
+  },
+  {
+    "s_no": 70,
+    "activity_code": 62098108,
+    "activity_description": "GRAM PURHARA ME DO MUHAN SE MAHABIR ASTHAN HOTE HUE AAHAR TAK KARHA URAHI KARYA WARD 11",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 210000
+  },
+  {
+    "s_no": 71,
+    "activity_code": 62201216,
+    "activity_description": "MAIN NAHAR SE AJAY PASWAN KE POKHRA TAK PAKI NALI KA URAHI KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 540000
+  },
+  {
+    "s_no": 72,
+    "activity_code": 62087079,
+    "activity_description": "DULARCHAND PASWAN KE BADHI ME POKHAR URAHI KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 280000
+  },
+  {
+    "s_no": 73,
+    "activity_code": 62198190,
+    "activity_description": "GRAM PURHARA ME PURHARA PUL SE PAUTHU BIGHA SIWAN TAK MITI BHRAI AWAM FEBAR BLOCK KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Roads",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 999000
+  },
+  {
+    "s_no": 74,
+    "activity_code": 62100618,
+    "activity_description": "GRAM BIRHARA ME PANSALA SE HIMALYA SCHOOL TAK KARHA URAHI KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 360000
+  },
+  {
+    "s_no": 75,
+    "activity_code": 62110612,
+    "activity_description": "GRAM BIRHARA ME MUKHIYA CHAUDHRI KE POKHRA UAHI KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 450000
+  },
+  {
+    "s_no": 76,
+    "activity_code": 62199553,
+    "activity_description": "GRAM BIRHARA ME GOPAL PASWAN KE KHET SE MAIN ROAD TAK KARHA URAHI AWAM PINDI MARMATI KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 840000
+  },
+  {
+    "s_no": 77,
+    "activity_code": 62067234,
+    "activity_description": "GRAM RAGHUNATHPUR WARP NO 1 ME SYAMNANDAN YADAV KE GHAR SE KABRISTAN TAK FEBAR BLOCK KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Roads",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 496000
+  },
+  {
+    "s_no": 78,
+    "activity_code": 61631585,
+    "activity_description": "GRAM RAGHUNATHPUR KE WARO 02 ME NAL JAL HETU RAKH RAKHAW AWAM MARMATI KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Drinking water",
+    "scheme_name": "XV Finance Commission",
+    "scheme_component_name": "Tied Grant",
+    "total_cost": 42000
+  },
+  {
+    "s_no": 79,
+    "activity_code": 61630856,
+    "activity_description": "GRAM BIRHARA WARD 07 ME BISUNDHARI SAW KE GHAR KE PASS KUWA KE JINRODHAR",
+    "activity_type": "Community Works",
+    "focus_area": "Drinking water",
+    "scheme_name": "XV Finance Commission",
+    "scheme_component_name": "Tied Grant",
+    "total_cost": 71200
+  },
+  {
+    "s_no": 80,
+    "activity_code": 62101626,
+    "activity_description": "GRAM MAHAWAL BIGHA WARD NO 9 ME NIRAJ YADAV KE POKHARA URAHI KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 340000
+  },
+  {
+    "s_no": 81,
+    "activity_code": 62087706,
+    "activity_description": "GRAM BANDHU BIGHA AKHILESH SINGH GHAR SE BALA SINGH KE GHAR TAK KARHA URAHI KARYA WARD 6",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 265000
+  },
+  {
+    "s_no": 82,
+    "activity_code": 62098356,
+    "activity_description": "GRAM PURHARA ME NAHAR SE PURAB TAK KARHA URAHI KARYA KANCHI SAHIT",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 895000
+  },
+  {
+    "s_no": 83,
+    "activity_code": 62023857,
+    "activity_description": "GRAM RAGHUNATHPUR ME SARFU MASTER KE GHAR SE MEN ROAD TAK PAIEN URAHI KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Agriculture",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 386000
+  },
+  {
+    "s_no": 84,
+    "activity_code": 62200942,
+    "activity_description": "GRAM BIRHARA ME SANKAR MAHTO KE KHET ME POKHRA URAHI KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 370000
+  },
+  {
+    "s_no": 85,
+    "activity_code": 62100808,
+    "activity_description": "GRAM BIRHARA ME NAHAR SE SAMSAN GHAT TAK KARHA URAHI KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 160000
+  },
+  {
+    "s_no": 86,
+    "activity_code": 62197899,
+    "activity_description": "GRAM CHAMAN BIGHAMEMUNI YADAV KE GHAR SE KAMLESH YADAV KE KHET TAK KARHA URAHI KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 320000
+  },
+  {
+    "s_no": 87,
+    "activity_code": 62099594,
+    "activity_description": "CHANDRAMANI SINGH KE GHAR SE KANCHI SAHIT KARHA URAHI KARYA WARD 6",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 346000
+  },
+  {
+    "s_no": 88,
+    "activity_code": 62088013,
+    "activity_description": "GRAM BANDHU BIGHA BASWADI KE PASS SE OM PRAKSH KE KHET TAK KARHA URAHI KARYA WARD 6",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 250000
+  },
+  {
+    "s_no": 89,
+    "activity_code": 62098006,
+    "activity_description": "GRAM PURHARA ME PASCHMI AAHAR SE RAGHUNATHPUR KARHA TAK KA URAHI KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Gaurantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 150000
+  },
+  {
+    "s_no": 90,
+    "activity_code": 61631652,
+    "activity_description": "GRAM RAGHUNATHPUR KE WARD 03 ME NAL JAL HETU RAKH RAKHAW AWAM MARMATI KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Drinking water",
+    "scheme_name": "XV Finance Commission",
+    "scheme_component_name": "Tied Grant",
+    "total_cost": 42000
+  },
+  {
+    "s_no": 91,
+    "activity_code": 62200655,
+    "activity_description": "DIPAK YADAV GRAM BIRHARA KHET SE SURYA DYAL SINGH KE KHET TAK KANCHI SAHIT KARHA URAHI KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Grammar)",
+    "total_cost": 220000
+  },
+  {
+    "s_no": 92,
+    "activity_code": 61632004,
+    "activity_description": "GRAM BIRHARA KE WARD 07 ME NAL JAL HETU RAKH RAKHAW AWAM MARMATI KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Drinking water",
+    "scheme_name": "XV Finance Commission",
+    "scheme_component_name": "Tied Grant",
+    "total_cost": 120000
+  },
+  {
+    "s_no": 93,
+    "activity_code": 62198047,
+    "activity_description": "GRAM BIRHARA ME MAIN NAHAR SE KABINDRA SINGH KE KHET TAK KARHA URAHI KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Grammar)",
+    "total_cost": 440000
+  },
+  {
+    "s_no": 94,
+    "activity_code": 62098999,
+    "activity_description": "GRAM PURHARA ME MITHLESH SINGH KE KHET SE MAHAVIR ASTHAN TAK KARHA URAHI KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Grain)",
+    "total_cost": 295000
+  },
+  {
+    "s_no": 95,
+    "activity_code": 62199974,
+    "activity_description": "GRAM BIRHARA ME JOGAN SINGH KE KHET SE CHALU KE BAR TAK KARHA URAHI KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Grain)",
+    "total_cost": 775000
+  },
+  {
+    "s_no": 96,
+    "activity_code": 62109084,
+    "activity_description": "GRAM BIRHARA ME BISUNDEV PASWAN KE POKHRA URAHI KARYA NIRMAN",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Grain)",
+    "total_cost": 330000
+  },
+  {
+    "s_no": 97,
+    "activity_code": 62197044,
+    "activity_description": "GRAM BIRHARA ME GAV SE PURAB SANJAY SINGH KE KHET KE PASS ANTIM CHOR TAK KARHA URAHI KARYA NIRMNA",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission ( Gramin)",
+    "total_cost": 240000
+  },
+  {
+    "s_no": 98,
+    "activity_code": 62067371,
+    "activity_description": "GRAM RAGHUNATHPUR WARD 1 ME KABRISTAN KE KONA SE BASIR SAH KE GHAR TAK KANCHI GALI ME FEBAR BLOCK",
+    "activity_type": "Community Works",
+    "focus_area": "Roads",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission ( Gramin)",
+    "total_cost": 488000
+  },
+  {
+    "s_no": 99,
+    "activity_code": 62200432,
+    "activity_description": "GRAM BIRHARA ME JAMUN SAV KE POKHRA URAHI KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission ( Gramin)",
+    "total_cost": 325000
+  },
+  {
+    "s_no": 100,
+    "activity_code": 62200136,
+    "activity_description": "GRAM BIRHARA ME VINAY MAHTO KE POKHRA URAHI KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission(Gramin)",
+    "total_cost": 350000
+  },
+  {
+    "s_no": 101,
+    "activity_code": 62101743,
+    "activity_description": "GRAM CHAMAN BIGHMA ME ROAD KE BAGAL WALA AAHAR URAHI KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission(Gramin)",
+    "total_cost": 740000
+  },
+  {
+    "s_no": 102,
+    "activity_code": 62068960,
+    "activity_description": "GRAM BANDHU BIGHMA ME SANTOSH SINGH KE GHAR SE BHAWAN YADAV KE GHAR TAK MITI BHARAI KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Land improvement",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission(Gramin)",
+    "total_cost": 437000
+  },
+  {
+    "s_no": 103,
+    "activity_code": 61632129,
+    "activity_description": "GRAM BIRHARA KE WARD 08 ME NAL JAL HETU RAKH RAKHAW AWAM MARMATI KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Drinking water",
+    "scheme_name": "XV Finance Commission",
+    "scheme_component_name": "Tied Grant",
+    "total_cost": 42000
+  },
+  {
+    "s_no": 104,
+    "activity_code": 62109489,
+    "activity_description": "GRAM BIRHARA ME PATNI KE PASCHMI WALA POKHARA URAHI KARYA NIRMAN",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramins)",
+    "total_cost": 450000
+  },
+  {
+    "s_no": 105,
+    "activity_code": 62198355,
+    "activity_description": "GRAM CHAMAN BIGHNA ME MAIN NAHAR SE DEVI MANDIR HOTE HUE DOHAR TAK KARHA URAHI KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramins)",
+    "scheme_component_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 330000
+  },
+  {
+    "s_no": 106,
+    "activity_code": 62099372,
+    "activity_description": "GRAM BANDHU BIGHA ME NHAR SE PUNA DEV SINGH KE KHET HOTE HUE KANCHI SAHIT KARHA URAHI KARYA WARD 6",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission ( Gramin)",
+    "total_cost": 485000
+  },
+  {
+    "s_no": 107,
+    "activity_code": 62086749,
+    "activity_description": "KISHUNPUR ME PRAKSH YADAV JI KI NIJI JAMIN ME POKHRA URAHI KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission ( Gramin)",
+    "total_cost": 360000
+  },
+  {
+    "s_no": 108,
+    "activity_code": 61631036,
+    "activity_description": "GRAM BIRHARA TOLE CHAMAN BIGHA WARD 08 ME SOHAN PASWAN KE GHAR KE PASS KUWA KA JINORDHAR",
+    "activity_type": "Community Works",
+    "focus_area": "Drinking water",
+    "scheme_name": "XV Finance Commission",
+    "scheme_component_name": "Tied Grant",
+    "total_cost": 71200
+  },
+  {
+    "s_no": 109,
+    "activity_code": 61631712,
+    "activity_description": "GRAM RAGHUNATHPUR KE WARD 04 ME NAL JAL HETU RAKH RAKHAW AWAM MARMATI KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Drinking water",
+    "scheme_name": "XV Finance Commission",
+    "scheme_component_name": "Tied Grant",
+    "total_cost": 42000
+  },
+  {
+    "s_no": 110,
+    "activity_code": 62099219,
+    "activity_description": "GRAM PURHARA ME PASCHMI AAHAR KA URAHI KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission",
+    "total_cost": 998000
+  },
+  {
+    "s_no": 111,
+    "activity_code": 62110082,
+    "activity_description": "GRAM BIRHARA ME JANGAL WALI KARHA ME PULL KA MARMATI KARYA NIRMAN",
+    "activity_type": "Community Works",
+    "focus_area": "Roads",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission",
+    "total_cost": 888000
+  },
+  {
+    "s_no": 112,
+    "activity_code": 62021305,
+    "activity_description": "GRAM RAGHUANTHPUR ME CHOTAKI POKHAR KA URAHI KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Agriculture",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramins)",
+    "total_cost": 495000
+  },
+  {
+    "s_no": 113,
+    "activity_code": 62108397,
+    "activity_description": "GRAM PURHARA ME FAUL SE NAHAR KE KINARE WALI KARHA JAGIR TAK KARHA URAHI KARYA WARD 10",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramins)",
+    "scheme_component_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 420000
+  },
+  {
+    "s_no": 114,
+    "activity_code": 62108580,
+    "activity_description": "GRAM PURHARA ME MAHAWAL BIGHKA KARHA KA KANCHI SAHIT KARHA URAHI KARYA WARD 9",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramins)",
+    "scheme_component_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 720000
+  },
+  {
+    "s_no": 115,
+    "activity_code": 62200847,
+    "activity_description": "GRAM BIRHARA ME DUMUHAN SE KANCHI SAHIT VIJAY SINGH KE KHET TAK KARHA URAHI KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramim)",
+    "total_cost": 440000
+  },
+  {
+    "s_no": 116,
+    "activity_code": 62067106,
+    "activity_description": "GRAM RAGHUNATHPUR WARD 3 MAIN ROAD KE BARKI PUL SE CHULHAN SAI KE BAGICHA TAK KARHA URAHI KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramim)",
+    "scheme_component_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 385000
+  },
+  {
+    "s_no": 117,
+    "activity_code": 61631516,
+    "activity_description": "GRAM RAGHUNATHPUR KE WARD 01 ME NAL JAL HETU RAKH RAKHAW AWAM MARMATI KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Drinking water",
+    "scheme_name": "XV Finance Commission",
+    "scheme_component_name": "Tied Grant",
+    "total_cost": 42000
+  },
+  {
+    "s_no": 118,
+    "activity_code": 62101241,
+    "activity_description": "GRAM BIRHARA ME THAKUR KE KHET SE LEKAR DURGA YADAV KE KHET TAK KARHA URAHI KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 180000
+  },
+  {
+    "s_no": 119,
+    "activity_code": 62110723,
+    "activity_description": "GRAM BIRHARA ME KAMTA YADAV KE POKHRA URAHI KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 340000
+  },
+  {
+    "s_no": 120,
+    "activity_code": 62201725,
+    "activity_description": "GRAM BANDHU BIGHA ME DHARMENRA KUMAR KE KUWA URAHI KARYA AWAM MARMATI KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 370000
+  },
+  {
+    "s_no": 121,
+    "activity_code": 62202196,
+    "activity_description": "DUMUHAN SE LEKAR KISHUNPUR SARAK HOTE HUE COOPERATIVE GODAM TAK KARHA URAHI KARYA WARD 05",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 680000
+  },
+  {
+    "s_no": 122,
+    "activity_code": 62201069,
+    "activity_description": "GRAM PURHARA SYAMNANDAN SINGH KE GHAR SE PURAB TAK NALI NIRMAN KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 740000
+  },
+  {
+    "s_no": 123,
+    "activity_code": 62023899,
+    "activity_description": "GRAM RAGHUNATHPUR WARD NO 1 ME POKHAR SE GOWARDHAN YADAV KE KHET TAK KARHA URAHI KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Agriculture",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 275000
+  },
+  {
+    "s_no": 124,
+    "activity_code": 62101537,
+    "activity_description": "GRAM BIRHARA ME AJAY PASWAN KE AAHAR URAHI KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission(Gramin)",
+    "total_cost": 340000
+  },
+  {
+    "s_no": 125,
+    "activity_code": 62097301,
+    "activity_description": "GRAM PURHARA ME UTAR BHAR POKHARI KA URAHI KARYA WARD 11",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission(Gramin)",
+    "total_cost": 357000
+  },
+  {
+    "s_no": 126,
+    "activity_code": 62201584,
+    "activity_description": "GRAM BANDHU BIGHAM E BIKASH KE NIJI JAMIN ME POKHRA URAHI KARYA WARD 6",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission(Gramin)",
+    "total_cost": 450000
+  },
+  {
+    "s_no": 127,
+    "activity_code": 62110672,
+    "activity_description": "GRAM BIRHARA ME RAJ KISHOR KE POKHRA URAHI KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramim)",
+    "total_cost": 540000
+  },
+  {
+    "s_no": 128,
+    "activity_code": 62098237,
+    "activity_description": "GRAM RAGHUNATH PUR ME DO MUHAN SE POKHAR HOTE HUE SAMSAN GHAT TAK KARHA URAHI KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramim)",
+    "scheme_component_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 496000
+  },
+  {
+    "s_no": 129,
+    "activity_code": 62101429,
+    "activity_description": "GRAM BIRHARA ME WARD NO 7 ME GOPAL PASWAN KE AAHAR URAHI KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramim)",
+    "scheme_component_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "total_cost": 360000
+  },
+  {
+    "s_no": 130,
+    "activity_code": 62200546,
+    "activity_description": "GRAM BIRHARA ME CHALU YADAV KE KHET ME POKHRA URAHI KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramins)",
+    "total_cost": 340000
+  },
+  {
+    "s_no": 131,
+    "activity_code": 61630443,
+    "activity_description": "GRAM PURHARA WARD 10 ME MUKHMANTRI GRAMIN PEYJAL NISCHAY YOJNA KE RAKH RAKHAW AWAM ANURAKSHAN KE LIY",
+    "activity_type": "Community Works",
+    "focus_area": "Drinking water",
+    "scheme_name": "XV Finance Commission",
+    "scheme_component_name": "Tied Grant",
+    "total_cost": 24000
+  },
+  {
+    "s_no": 132,
+    "activity_code": 61630369,
+    "activity_description": "GRAM PURHARA WARD 09 ME MUKHMANTRI GRAMIN PEYJAL NISCHAY YOJNA KE RAKH RAKHAW AWAM ANURAKSHAN KE LIY",
+    "activity_type": "Community Works",
+    "focus_area": "Drinking water",
+    "scheme_name": "XV Finance Commission",
+    "scheme_component_name": "Tied Grant",
+    "total_cost": 24000
+  },
+  {
+    "s_no": 133,
+    "activity_code": 61630264,
+    "activity_description": "GRAM BIRHARA WARD 08 ME MUKHMANTRI GRAMIN PEYJAL NISCHAY YOJNA KE RAKH RAKHAW AWAM ANURAKSHAN KE LIY",
+    "activity_type": "Community Works",
+    "focus_area": "Drinking water",
+    "scheme_name": "XV Finance Commission",
+    "scheme_component_name": "Tied Grant",
+    "total_cost": 24000
+  },
+  {
+    "s_no": 134,
+    "activity_code": 61630089,
+    "activity_description": "GRAM BIRHARA WARD 07 ME MUKHMANTRI GRAMIN PEYJAL NISCHAY YOJNA KE RAKH RAKHAW AWAM ANURAKSHAN KE LIY",
+    "activity_type": "Community Works",
+    "focus_area": "Drinking water",
+    "scheme_name": "XV Finance Commission",
+    "scheme_component_name": "Tied Grant",
+    "total_cost": 24000
+  },
+  {
+    "s_no": 135,
+    "activity_code": 61629965,
+    "activity_description": "GRAM KISUNPUR WARD 06 ME MUKHMANTRI GRAMIN PEYJAL NISCHAY YOJNA RAKH RAKHAW AWAM ANURAKSHAN KE LIY",
+    "activity_type": "Community Works",
+    "focus_area": "Drinking water",
+    "scheme_name": "XV Finance Commission",
+    "scheme_component_name": "Tied Grant",
+    "total_cost": 24000
+  },
+  {
+    "s_no": 136,
+    "activity_code": 61629808,
+    "activity_description": "GRAM KISUNPUR WARD 05 ME MUKHMANTRI GRAMIN PEYJAL NISCHAY YOJNA RAKH RAKHAW AWAM ANURAKSHAN KE LIY",
+    "activity_type": "Community Works",
+    "focus_area": "Drinking water",
+    "scheme_name": "XV Finance Commission",
+    "scheme_component_name": "Tied Grant",
+    "total_cost": 24000
+  },
+  {
+    "s_no": 137,
+    "activity_code": 61629321,
+    "activity_description": "GRAM RAGHUNATHPUR WARD 04 ME MUKHMANTRI PEYJAL NISCHAY YOJNA KE RAKH RAKHAW AWAM ANURAKSHAN KE LIY",
+    "activity_type": "Community Works",
+    "focus_area": "Drinking water",
+    "scheme_name": "XV Finance Commission",
+    "scheme_component_name": "Tied Grant",
+    "total_cost": 24000
+  },
+  {
+    "s_no": 138,
+    "activity_code": 61629090,
+    "activity_description": "GRAM RAGHUNATHPUR WARD 03 ME MUKHMANTRI PEYJAL NISCHAY YOJNA KE RAKH RAKHAW AWAM ANURAKSHAN KE LIY",
+    "activity_type": "Community Works",
+    "focus_area": "Drinking water",
+    "scheme_name": "XV Finance Commission",
+    "scheme_component_name": "Tied Grant",
+    "total_cost": 24000
+  },
+  {
+    "s_no": 139,
+    "activity_code": 61630628,
+    "activity_description": "GRAM PURHARA WARD 11 ME MUKHMANTRI GRAMIN PEYJAL NISCHAY YOJNA KE RAKH RAKHAW AWAM ANURAKSHAN KE LIY",
+    "activity_type": "Community Works",
+    "focus_area": "Drinking water",
+    "scheme_name": "XV Finance Commission",
+    "scheme_component_name": "Tied Grant",
+    "total_cost": 24000
+  },
+  {
+    "s_no": 140,
+    "activity_code": 61602990,
+    "activity_description": "GRAM RAGHUNATHPUR KE WARD 04 ME JAVED ANSARI KE GHAR SE NURUN ANSARI TAK FEVER BLOCK AND NALI NIRMAN",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "XV Finance Commission",
+    "scheme_component_name": "Tied Grant",
+    "total_cost": 363335
+  },
+  {
+    "s_no": 141,
+    "activity_code": 61603858,
+    "activity_description": "GRAM RAGHUNATHPUR WARD 03 ME MOHFIJ KE GHAR SE EMTEYAJ KE GHAR HOTE HUE SAMI KE GHAR TAK FEVER BLOCK",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "XV Finance Commission",
+    "scheme_component_name": "Tied Grant",
+    "total_cost": 330000
+  },
+  {
+    "s_no": 142,
+    "activity_code": 61602350,
+    "activity_description": "GRAM RAGHUNATHPUR WARD 02 ME NIRAJ VISHWAKRMA KE GHAR SE LEKAR AAGANWADI KENDRA TAK NALI NIRMAN.",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "XV Finance Commission",
+    "scheme_component_name": "Tied Grant",
+    "total_cost": 500000
+  },
+  {
+    "s_no": 143,
+    "activity_code": 62067608,
+    "activity_description": "GRAM RAGHUNATHPUR ME WARD 1 SYAMANCHARAN SINGH KE GHAR SE VIJAY RAWANI KE GHAR TAK NALI KA NIRMAN",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramin)",
+    "scheme_component_name": "Viksit Bharat-Guarantee for Rozgar and Ajeevika Mission (Gramins)",
+    "total_cost": 375000
+  },
+  {
+    "s_no": 144,
+    "activity_code": 61602720,
+    "activity_description": "GRAM RAGHUNATHPUR WARD 03 ME MUSTAFA KHAN KE GHAR SE SYAMACHARAN KE GHAR TAK NALI NIRMAN.",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "XV Finance Commission",
+    "scheme_component_name": "Tied Grant",
+    "total_cost": 150000
+  },
+  {
+    "s_no": 145,
+    "activity_code": 61628111,
+    "activity_description": "GRAM RAGHUNATHPUR WARD 01 ME MUKHMANGRI GRAMIN PEYJAL NISCHAY YOJNA KE RAKH RAKHAV AWAM ANURACHAN KE",
+    "activity_type": "Community Works",
+    "focus_area": "Drinking water",
+    "scheme_name": "XV Finance Commission",
+    "scheme_component_name": "Tied Grant",
+    "total_cost": 24000
+  },
+  {
+    "s_no": 146,
+    "activity_code": 61629007,
+    "activity_description": "GRAM RAGHUNATHPUR WARD 02 ME MUKHMNTRI GRAMIN PEYJAL NISCHAY YOJNA KE RAKH RAKHAV AWAM ANURAKSHAN KE",
+    "activity_type": "Community Works",
+    "focus_area": "Drinking water",
+    "scheme_name": "XV Finance Commission",
+    "scheme_component_name": "Tied Grant",
+    "total_cost": 24000
+  },
+  {
+    "s_no": 147,
+    "activity_code": 61608126,
+    "activity_description": "GRAM KISHUNPUR KE WARD 05 ME MUKH MANTRI GRAMIN SOLAR STREET 10 ASTHONO PAR NIRMAN KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Rural electrification",
+    "scheme_name": "Own Funds",
+    "scheme_component_name": "Own Funds",
+    "total_cost": 1
+  },
+  {
+    "s_no": 148,
+    "activity_code": 61608126,
+    "activity_description": "GRAM KISHUNPUR KE WARD 05 ME MUKH MANTRI GRAMIN SOLAR STREET 10 ASTHONO PAR NIRMAN KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Rural electrification",
+    "scheme_name": "XV Finance Commission",
+    "scheme_component_name": "Basic Grant (untied)",
+    "total_cost": 299999
+  },
+  {
+    "s_no": 149,
+    "activity_code": 61609095,
+    "activity_description": "GRAM KISHUNPUR KE WARD 06 ME MUKH MANTRI GRAMIN SOLAR STREET 10 ASTHONO PAR NIRMAN KARYA.",
+    "activity_type": "Community Works",
+    "focus_area": "Rural electrification",
+    "scheme_name": "XV Finance Commission",
+    "scheme_component_name": "Basic Grant (untied)",
+    "total_cost": 300000
+  },
+  {
+    "s_no": 150,
+    "activity_code": 61609402,
+    "activity_description": "GRAM BIRHARA KE WARD 07 ME MUKH MANTRI SOLAR STREET LIGHT 10 ASTHANO PAR NIRMAN KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Rural electrification",
+    "scheme_name": "XV Finance Commission",
+    "scheme_component_name": "Basic Grant (untied)",
+    "total_cost": 300000
+  },
+  {
+    "s_no": 151,
+    "activity_code": 61609696,
+    "activity_description": "GRAM BIRHARA KE WARD 08 ME MUKH MANTRI GRAMIN SOLAR STREET LIGHT 10 ASHTANO PAR NIRMAN KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Rural electrification",
+    "scheme_name": "XV Finance Commission",
+    "scheme_component_name": "Basic Grant (untied)",
+    "total_cost": 300000
+  },
+  {
+    "s_no": 152,
+    "activity_code": 61631917,
+    "activity_description": "GRAM KISHUPUR KE WARD 06 ME NAL JAL HETU RAKH RAKHAW AWAM MARMATI KARYA",
+    "activity_type": "Community Works",
+    "focus_area": "Drinking water",
+    "scheme_name": "XV Finance Commission",
+    "scheme_component_name": "Tied Grant",
+    "total_cost": 42000
+  },
+  {
+    "s_no": 153,
+    "activity_code": 87029661,
+    "activity_description": "Creation of Shed for segregation and processing of wet and dry waste",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "XV Finance Commission",
+    "scheme_component_name": "Tied Grant",
+    "total_cost": 750000
+  },
+  {
+    "s_no": 154,
+    "activity_code": 87029736,
+    "activity_description": "Any other operation and maintenance needs related to solid waste management",
+    "activity_type": "Community Works",
+    "focus_area": "Sanitation",
+    "scheme_name": "XV Finance Commission",
+    "scheme_component_name": "Tied Grant",
+    "total_cost": 71200
+  }
+]

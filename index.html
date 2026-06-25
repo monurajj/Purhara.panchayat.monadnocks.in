@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Village Development Portal</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+<body class="site-body bg-gray-50 min-h-screen flex flex-col" data-page-title="Home">
+  <header id="site-header"></header>
+
+  <main class="page-main flex-1 max-w-7xl mx-auto w-full px-4 sm:px-6 py-4 sm:py-8">
+    <!-- Hero -->
+    <section class="hero-section bg-gradient-to-r from-green-800 to-green-600 rounded-2xl text-white p-8 mb-6 sm:mb-8 shadow-lg">
+      <div class="max-w-2xl">
+        <h2 class="text-3xl font-bold mb-2" data-i18n="siteTitle">Village Development Portal</h2>
+        <p class="text-green-100 mb-4 text-sm sm:text-base break-words" id="hero-location"></p>
+        <p class="text-green-200 text-xs sm:text-sm" data-i18n="about.missionText">Transparent access to village development projects.</p>
+        <div class="flex flex-col sm:flex-row flex-wrap gap-3 mt-6">
+          <a href="table.html" class="btn-touch bg-white text-green-800 px-5 py-2.5 rounded-lg font-medium hover:bg-green-50 transition text-center">
+            <i class="fas fa-table mr-1"></i> <span data-i18n="nav.table">Projects Table</span>
+          </a>
+          <a href="dashboard.html" class="btn-touch bg-green-700 text-white px-5 py-2.5 rounded-lg font-medium hover:bg-green-600 transition border border-green-500 text-center">
+            <i class="fas fa-chart-pie mr-1"></i> <span data-i18n="nav.dashboard">Dashboard</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Key Figures -->
+    <section class="mb-8">
+      <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-4" data-i18n="stats.sectionTitle">Key Figures</h3>
+      <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4">
+        <article class="home-stat-card home-stat-card--green stat-card">
+          <div class="home-stat-card__header">
+            <span class="home-stat-card__icon" aria-hidden="true"><i class="fas fa-hammer"></i></span>
+            <p class="home-stat-card__label" data-i18n="stats.totalProjects">Total Projects</p>
+          </div>
+          <p id="stat-projects" class="home-stat-card__value" data-counter="true">0</p>
+        </article>
+        <article class="home-stat-card home-stat-card--blue stat-card">
+          <div class="home-stat-card__header">
+            <span class="home-stat-card__icon" aria-hidden="true"><i class="fas fa-hand-holding-usd"></i></span>
+            <p class="home-stat-card__label" data-i18n="stats.receipt">Total Receipt</p>
+          </div>
+          <p id="stat-receipt" class="home-stat-card__value home-stat-card__value--currency" data-counter="true" data-currency="true">₹0</p>
+        </article>
+        <article class="home-stat-card home-stat-card--amber stat-card">
+          <div class="home-stat-card__header">
+            <span class="home-stat-card__icon" aria-hidden="true"><i class="fas fa-percentage"></i></span>
+            <p class="home-stat-card__label" data-i18n="stats.utilization">Fund Utilization</p>
+          </div>
+          <p id="stat-utilization" class="home-stat-card__value" data-counter="true" data-percent="true">0%</p>
+        </article>
+        <article class="home-stat-card home-stat-card--red stat-card">
+          <div class="home-stat-card__header">
+            <span class="home-stat-card__icon" aria-hidden="true"><i class="fas fa-flag"></i></span>
+            <p class="home-stat-card__label" data-i18n="stats.discrepancies">Discrepancies</p>
+          </div>
+          <p id="stat-discrepancies" class="home-stat-card__value home-stat-card__value--alert" data-counter="true">0</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Total Project Cost (matches PDF Total Cost Report) -->
+    <section class="home-cost-panel stat-card mb-8">
+      <div class="home-cost-panel__grid">
+        <div class="home-cost-panel__primary">
+          <div class="home-cost-panel__badge">
+            <i class="fas fa-coins" aria-hidden="true"></i>
+          </div>
+          <div class="min-w-0">
+            <h3 class="home-cost-panel__title" data-i18n="stats.totalProjectCostBilingual">
+              Total Project Cost / कुल परियोजना लागत
+            </h3>
+            <p class="home-cost-panel__note" data-i18n="stats.totalProjectCostNote">
+              Sum of all project work costs listed for this financial year (same as PDF report total).
+            </p>
+            <p id="stat-project-cost" class="home-cost-panel__amount" data-counter="true" data-currency="true">₹0</p>
+          </div>
+        </div>
+        <div id="home-project-cost-detail" class="home-cost-panel__words"></div>
+      </div>
+    </section>
+
+    <!-- Quick Links -->
+    <section class="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <a href="villages.html" class="bg-white p-5 rounded-xl shadow hover:shadow-md transition text-center group">
+        <i class="fas fa-map-marker-alt text-2xl text-green-700 group-hover:scale-110 transition inline-block"></i>
+        <p class="mt-2 font-medium text-sm" data-i18n="nav.villages">Villages</p>
+      </a>
+      <a href="schemes.html" class="bg-white p-5 rounded-xl shadow hover:shadow-md transition text-center group">
+        <i class="fas fa-file-contract text-2xl text-green-700 group-hover:scale-110 transition inline-block"></i>
+        <p class="mt-2 font-medium text-sm" data-i18n="nav.schemes">Schemes</p>
+      </a>
+      <a href="financial.html" class="bg-white p-5 rounded-xl shadow hover:shadow-md transition text-center group">
+        <i class="fas fa-balance-scale text-2xl text-green-700 group-hover:scale-110 transition inline-block"></i>
+        <p class="mt-2 font-medium text-sm" data-i18n="nav.financial">Financial</p>
+      </a>
+      <a href="discrepancies.html" class="bg-white p-5 rounded-xl shadow hover:shadow-md transition text-center group">
+        <i class="fas fa-exclamation-triangle text-2xl text-red-600 group-hover:scale-110 transition inline-block"></i>
+        <p class="mt-2 font-medium text-sm" data-i18n="nav.discrepancies">Discrepancies</p>
+      </a>
+    </section>
+  </main>
+
+  <footer id="site-footer"></footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/modal.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    async function initHomePage() {
+      await initApp('home');
+      const projects = getProjects();
+      const fp = getFinancialProgress();
+      const meta = getMeta();
+      const disc = detectDiscrepancies(projects);
+      const utilization = (fp.expenditure / fp.receipt) * 100;
+
+      document.getElementById('hero-location').textContent =
+        `${t('brand.panchayat')} ${field(meta, 'gram_panchayat')} · ${field(meta, 'block')} · ${field(meta, 'district')}, ${field(meta, 'state')} · ${getYearLabel(meta.financial_year)}`;
+
+      animateCounter(document.getElementById('stat-projects'), projects.length);
+      animateCounter(document.getElementById('stat-receipt'), fp.receipt, 1500);
+      animateCounter(document.getElementById('stat-project-cost'), getProjectCostTotal(), 1500);
+      document.getElementById('home-project-cost-detail').innerHTML =
+        amountWordsHtml(getProjectCostTotal(), 0);
+      animateCounter(document.getElementById('stat-utilization'), utilization, 1500);
+      animateCounter(document.getElementById('stat-discrepancies'), disc.total);
+
+      renderFooter();
+    }
+    initHomePage();
+  </script>
+</body>
+</html>
